@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoCal Home Comfort</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to right, #ffb703, #ffd166);
+      padding: 20px;
+      text-align: center;
+      color: #000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #000;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      background: #222;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #ffd166;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: #ddd;
+    }
+    .hero button {
+      background: #ffb703;
+      color: #000;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .hero button:hover {
+      background: #ffd166;
+      color: #111;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #ffd166;
+      margin-bottom: 12px;
+      font-size: 22px;
+    }
+    .card p {
+      color: #ccc;
+      font-size: 15px;
+    }
+    footer {
+      background: #000;
+      color: #ffd166;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SoCal Home Comfort</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="appointment.html">Schedule Appointment</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Reliable HVAC Services</h2>
+    <p>Providing top-quality heating, cooling, and comfort solutions for your home. Customer satisfaction is our priority.</p>
+    <button onclick="location.href='appointment.html'">Book an Appointment</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>AC Installation & Repair</h3>
+      <p>Stay cool and comfortable with expert air conditioning installation and repair services.</p>
+    </div>
+    <div class="card">
+      <h3>Heating & Furnace</h3>
+      <p>Keep your home warm during the cold months with our reliable heating and furnace solutions.</p>
+    </div>
+    <div class="card">
+      <h3>Duct Cleaning</h3>
+      <p>Breathe cleaner air with our professional duct cleaning services.</p>
+    </div>
+    <div class="card">
+      <h3>Thermostat Services</h3>
+      <p>Upgrade or repair your thermostat for efficient temperature control in your home.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SoCal Home Comfort | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
